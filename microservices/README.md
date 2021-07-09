@@ -15,6 +15,7 @@ this microservice takes two numbers as input from url , return a string , which 
 ->the two applicatons are linked using RESTTEMPLATE.<br>
 ->the two microservices communicate through http protocol. <br>
 ->the application is designed in such a way that, microservice 2 calls 
-microservice 1. Also the two microservices can be deployed independently.<br>
+microservice 1.<br>
+->Also the two microservices can be deployed independently.<br>
 ->the two microservices communicate synchronously.<br>
 
