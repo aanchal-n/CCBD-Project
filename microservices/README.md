@@ -12,6 +12,9 @@ this microservice takes input from url , and returns a string which is either "E
 this microservice takes two numbers as input from url , return a string , which says " the sum is = ".
 
 **LINKING THE TWO APPLICATIONS**
-the two applicatons are linked using RESTTEMPLATE. the two microservices communicate through http protocol. the application is designed in such a way that, microservice 2 calls 
+->the two applicatons are linked using RESTTEMPLATE. 
+->the two microservices communicate through http protocol. 
+->the application is designed in such a way that, microservice 2 calls 
 microservice 1. Also the two microservices can be deployed independently.
+->the two microservices communicate synchronously.
 
